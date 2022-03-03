@@ -22,6 +22,7 @@
 // var_dump(map($list , 'doS2'));
 // var_dump (map($list , 'doS'));
 
+
 $c = 5;
 $sum = fn($a,$b) => $a+$b+$c;
 var_dump($sum(1,2));

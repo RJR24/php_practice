@@ -26,7 +26,7 @@ var_dump($_POST);
     <form action="/login.php" method='post'>
 
         <?php if (isset($_POST['username'])) {?>
-
+            
             <h3>Hast dadash hast</h3>
         <?php } ?>    
         <input type="text" name="username">
