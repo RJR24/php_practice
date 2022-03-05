@@ -68,11 +68,29 @@
 // }
 // var_dump($_SESSION);
 
+// $link= mysqli_connect('localhost:3306','root','' );
+// if(! $link) {
+
+//     echo 'Not Connected';
+//     exit;
+// }
+// echo ' connected____';
+
+// mysqli_select_db($link ,'rocket');
+
+// $SQL = "CREATE TABLE USERS (id INT AUTO_INCREMENT , password VARCHR(100) NOT NULL , primary key (id) )";
 
 
+// if ($result = mysqli_query($link,$SQL)) {
+//     echo 'database created successfuly';
+    
+// } else {
+//     echo 'could not create the database!' . mysqli_error($link);
+    
+// }
 
-
-?>
+// mysqli_close($link);
+// ?>
 <!-- <html>
     <head>
 
